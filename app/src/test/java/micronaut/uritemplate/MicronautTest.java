@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class MicronautTest {
 
-    private static final String URL_FORMAT = "https://www.mydomain.com/post/{postSlug}";
+    private static final String URL_FORMAT = "https://www.mydomain.com/post/{+postSlug}";
 
     @Test
     void micronautUriTemplate() {
